@@ -1,14 +1,14 @@
 # seqr
 
 ### Tech Overview
--[x] genomics intro
--[x] PyCharm, vim
--[x] React, Redux
+- [x] genomics intro
+- [x] PyCharm, vim
+- [x] React, Redux
   - [ ] Redux advanced tutorial
--[x] PostgresSQL
--[ ] Django, Django ORM
--[ ] Python, JavaScript
--[ ] seqr source code
+- [x] PostgresSQL
+- [ ] Django, Django ORM
+- [ ] Python, JavaScript
+- [ ] seqr source code
 
 ### Week 1 06/25/19 - 06/28/19
 #### Done
