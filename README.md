@@ -26,7 +26,7 @@
 should I follow a textbook or just stackoverflow as I go)?
 
 ### Meeting Notes
-- master and dev
+- git branching: master and dev
   - one branch per ticket
   - branch off dev
   - pull from dev
@@ -34,18 +34,19 @@ should I follow a textbook or just stackoverflow as I go)?
   - add review when you are done
   - queue up a couple of tickets
   - master is just for deploy
- - Ex6 JavaScipt, (linker, pure js, will caught by the linker)
- - Pull request
-   - clean ui 
-   - run the ui test and the server test (auto test on PR also)
-     - pr push test one of them fialing i sfine
-     - Codacy review (fix it)
-   - approval
-   - then merge the pull request
+- JS
+  - Ex6 JavaScript (linker, pure js, will caught by the linker)
+- Pull request
+  - clean ui 
+  - run the ui test and the server test (auto test on PR also)
+   - pr/push test one of them failing is fine
+  - pass Codacy review (fix the minor errors)
+  - approval
+  - only then merge the pull request
 - style
   - break into sub-functions _private (python conventional)
     - don't explicitly test or export _underscore_function
-  - code should be self-explainatary 
+  - code should be self-explanatory 
   - intuitively why something need to be done
   - strange decision decision
  - Add test for prs
@@ -61,7 +62,7 @@ should I follow a textbook or just stackoverflow as I go)?
       - some selector has robust test (selector.test.js - then add a test)
       - connected components use different test style
 - timeline: > 2 wks, < 3 months
-  - Increase the size of pedigree image in Inheritance search
+  - Increase the size of pedigree image in Inheritance search (maybe, lighter)
   - Allow multiple expanded search categories
   - Add gnomad sort frequency (both in ui and server, learning ticket)
   - Assign cases to analysts (larger, create a new db model)
