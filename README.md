@@ -61,16 +61,27 @@ should I follow a textbook or just stackoverflow as I go)?
       - currently only shallow rendering without crashing test (don't need to add a .test.js test)
       - some selector has robust test (selector.test.js - then add a test)
       - connected components use different test style
-- timeline: > 2 wks, < 3 months
+- timeline: > 2 wks, < 3 months 
   - Increase the size of pedigree image in Inheritance search (maybe, lighter)
   - Allow multiple expanded search categories
   - Add gnomAD sort frequency (both in ui and server, learning ticket)
   - Assign cases to analysts (larger, create a new db model)
-  
-### How to do a PR
-- start a branch off dev
-- make changes
-- run ui/client test
-- pull from dev
-- merge to dev
-- issue PR push from dev
+
+## Week 2 06/24/19 - 06/29/19
+### How to do a PR?
+- start a new feature-branch ```git checkout -b <feature-branch>``` then ```git pull origin dev```
+- build the feature
+- client and server test (comment out lines 436-445 in ```setting.py```)
+- pull latest dev branch ```git pull origin dev```
+- push feature-branch ```git push --set-upstream origin <feature-branch>```
+- go to the feature-branch on github and issue a PR pull request to **dev (not master)**
+- fix any failing tests and pull + push again
+- mark issue as closed and click ...(to fill later, some green button)
+
+### Ambitious plan for completing the 6 listed feature requests
+1. 06/25 Allow multiple expanded search categories 
+2. 06/26 Add gnomAD sort frequency (both in ui and server, learning ticket)
+3. 06/28 Assign cases to analysts (larger, create a new db model)
+4. 07/01 Edit variant notes in-line
+5. 07/03 Show saved variant breakdown for family on family/ variant pages
+6. 07/05 Allow variant notes to be saved as gene notes
