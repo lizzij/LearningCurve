@@ -6,4 +6,8 @@
 - use *pure reducers* to specify actions
   - signature: (state, action) => state
   - should not mutate state, but return a *new* object if the state changes
+- Actions, Reducers, Store
+  - default return state
 
+## Advanced Examples
+- asynchronous API: request began, finish successfully, request failed

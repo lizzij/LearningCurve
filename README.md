@@ -10,7 +10,8 @@
 - [ ] Python, JavaScript
 - [ ] seqr source code
 
-## Week 1 06/25/19 - 06/28/19
+## Week 1 
+06/25/19 - 06/28/19
 #### Done
 - finished reading the genomics intro
 - finished react, redux tutorial
@@ -67,21 +68,40 @@ should I follow a textbook or just stackoverflow as I go)?
   - Add gnomAD sort frequency (both in ui and server, learning ticket)
   - Assign cases to analysts (larger, create a new db model)
 
-## Week 2 06/24/19 - 06/29/19
+## Week 2 
+06/24/19 - 06/29/19
+
 ### How to do a PR?
 - start a new feature-branch ```git checkout -b <feature-branch>``` then ```git pull origin dev```
 - build the feature
-- client and server test (comment out lines 436-445 in ```setting.py```)
+- add necessary test (client side: add/change end-points)
+- client and server test (comment out lines 436-445 in ```seqr/settings.py```)
 - pull latest dev branch ```git pull origin dev```
 - push feature-branch ```git push --set-upstream origin <feature-branch>```
 - go to the feature-branch on github and issue a PR pull request to **dev (not master)**
 - fix any failing tests and pull + push again
-- mark issue as closed and click ...(to fill later, some green button)
+- click ...(to fill later, some green button)
+- don't close out ticket until deployed
 
-### Ambitious plan for completing the 6 listed feature requests
-1. 06/25 Allow multiple expanded search categories 
-2. 06/26 Add gnomAD sort frequency (both in ui and server, learning ticket)
-3. 06/28 Assign cases to analysts (larger, create a new db model)
-4. 07/01 Edit variant notes in-line
-5. 07/03 Show saved variant breakdown for family on family/ variant pages
-6. 07/05 Allow variant notes to be saved as gene notes
+### Plan
+1. 06/24 ~~Increase the size of pedigree image in Inheritance search~~
+2. 06/25 Allow multiple expanded search categories 
+  * toggle Accordion https://codesandbox.io/s/401lkvm09x
+  ```html
+  const temp = [0, 1, 2, 3, 4, 5]
+  <FormSection name="search">
+    <Accordion fluid panels={this.props.user.isStaff ? STAFF_PANELS : PANELS} />
+    <Accordion fluid panels={this.props.user.isStaff ? STAFF_PANELS : PANELS} exclusive={false} activeIndex={temp} />
+  </FormSection>
+  
+  <ExpandCollapseCategoryContainer>
+    <ButtonLink>Expand All &nbsp;<Icon name="plus" /></ButtonLink>
+    <b>| &nbsp;&nbsp;</b>
+    <ButtonLink>Collapse All &nbsp;<Icon name="minus" /></ButtonLink>
+  </ExpandCollapseCategoryContainer>
+  ```
+3. 06/26 Add gnomAD sort frequency (both in ui and server, learning ticket)
+4. 06/28 Assign cases to analysts (larger, create a new db model)
+5. 07/01 Edit variant notes in-line
+6. 07/03 Show saved variant breakdown for family on family/ variant pages
+7. 07/05 Allow variant notes to be saved as gene notes
