@@ -80,66 +80,33 @@ should I follow a textbook or just stackoverflow as I go)?
 - push feature-branch ```git push --set-upstream origin <feature-branch>```
 - go to the feature-branch on github and issue a PR pull request to **dev (not master)**
 - fix any failing tests and pull + push again
-- click ...(to fill later, some green button)
+- wait for feedback (work on multiple branches), fix (iterate this step until code review is passed)
+- click the green "Merge pull request" button :)
 - don't close out ticket until deployed
 
 ### Plan
 1. 06/24 ~~Increase the size of pedigree image in Inheritance search~~
-2. 06/25 Allow multiple expanded search categories 
-  * toggle Accordion https://codesandbox.io/s/401lkvm09x
-  ```html
-  const temp = [0, 1, 2, 3, 4, 5]
-  <FormSection name="search">
-    <Accordion fluid panels={this.props.user.isStaff ? STAFF_PANELS : PANELS} />
-    <Accordion fluid panels={this.props.user.isStaff ? STAFF_PANELS : PANELS} exclusive={false} activeIndex={temp} />
-  </FormSection>
-  
-  <ExpandCollapseCategoryContainer>
-    <ButtonLink>Expand All &nbsp;<Icon name="plus" /></ButtonLink>
-    <b>| &nbsp;&nbsp;</b>
-    <ButtonLink>Collapse All &nbsp;<Icon name="minus" /></ButtonLink>
-  </ExpandCollapseCategoryContainer>
-  ```
+2. 06/25 ~~Allow multiple expanded search categories~~
 3. 06/26 Add gnomAD sort frequency (both in ui and server, learning ticket)
 4. 06/28 Assign cases to analysts (larger, create a new db model)
 5. 07/01 Edit variant notes in-line
 6. 07/03 Show saved variant breakdown for family on family/ variant pages
 7. 07/05 Allow variant notes to be saved as gene notes
 
-Notes for multiple accordion
-```javascript
-class MyMultipleAccordion extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            values: []
-        }
-    }
-
-    onAccordionChange(index) {
-        // Remove key if presented, add key otherwise, preserve other keys
-        this.setState({
-            values: (this.state.values.indexOf(index) !== -1) ? this.state.values.filter(cur => cur !== index) : [...this.state.values, index]
-        });
-    }
-
-    render() {
-        return (
-            <Accordion styled activeIndexes={this.state.values} onAccordionChange={this.onAccordionChange.bind(this)}>
-                <AccordionTitle index={1}>First</AccordionTitle>
-                <AccordionBody>First content</AccordionBody>
-                <AccordionTitle index={2}>Second</AccordionTitle>
-                <AccordionBody>Second content</AccordionBody>
-                <AccordionTitle index={3}>Third</AccordionTitle>
-                <AccordionBody>Third content</AccordionBody>
-                <AccordionTitle index={4}>Four</AccordionTitle>
-                <AccordionBody>Four content</AccordionBody>
-                <AccordionTitle index={5}>Five</AccordionTitle>
-                <AccordionBody>Five content</AccordionBody>
-            </Accordion>
-        );
-    }
-}
-
-<MyMultipleAccordion/>
-```
+### Note to self for week 2
+- Good:
+  - can calm down adn do work at desk 
+  - know people and places
+  - more familiar with code base and tech stack
+- Bad:
+  - balance social & work
+  - do more tutorials! get into the code faster (become fluent in py and 
+  can work as a full-stack web dev first)
+- in general: 
+  - don't slack off as time goes by...
+  - but don't let the stress get to you either
+  - iterate and improve
+- looking forward:  
+  - start off day with tutorials, end off day with leetcode (?)
+  - code more, make more mistakes, **ask A LOT more questions (but google first tho)**
+  - make more friends, have more fun

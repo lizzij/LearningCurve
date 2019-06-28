@@ -25,5 +25,5 @@
 - push feature-branch ```git push --set-upstream origin <feature-branch>```
 - go to the feature-branch on github and issue a PR pull request to **dev (not master)**
 - fix any failing tests and pull + push again
-- click ...(to fill later, some green button)
+- click "Merge pull request button"
 - don't close out ticket until deployed
