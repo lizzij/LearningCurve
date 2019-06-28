@@ -94,6 +94,9 @@ should I follow a textbook or just stackoverflow as I go)?
 7. 07/05 Allow variant notes to be saved as gene notes
 
 ### Note to self for week 2
+- Progress:
+  - 2 PR, 1 code review
+  - to goal? missed 2 PRs, started on 1 later one (missed ~1.5 PRs)
 - Good:
   - can calm down adn do work at desk 
   - know people and places
