@@ -87,7 +87,7 @@ should I follow a textbook or just stackoverflow as I go)?
 ### Plan
 1. 06/24 ~~Increase the size of pedigree image in Inheritance search~~
 2. 06/25 ~~Allow multiple expanded search categories~~
-3. 06/26 Add gnomAD sort frequency (both in ui and server, learning ticket)
+3. 06/26 ~~Add gnomAD sort frequency (both in ui and server, learning ticket)~~
 4. 06/28 Assign cases to analysts (larger, create a new db model)
 5. 07/01 Edit variant notes in-line
 6. 07/03 Show saved variant breakdown for family on family/ variant pages
@@ -105,11 +105,20 @@ should I follow a textbook or just stackoverflow as I go)?
   - balance social & work
   - do more tutorials! get into the code faster (become fluent in py and 
   can work as a full-stack web dev first)
-- in general: 
+- In general: 
   - don't slack off as time goes by...
   - but don't let the stress get to you either
   - iterate and improve
-- looking forward:  
+- Looking forward:  
   - start off day with tutorials, end off day with leetcode (?)
   - code more, make more mistakes, **ask A LOT more questions (but google first tho)**
   - make more friends, have more fun
+  
+## Week 3
+07/01 - 07/07
+### Goal
+- Add gnomAD sort frequency (both in ui and server, learning ticket)
+- Assign cases to analysts (larger, create a new db model)
+- Edit variant notes in-line
+- Show saved variant breakdown for family on family/ variant pages
+- Allow variant notes to be saved as gene notes
