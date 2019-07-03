@@ -122,3 +122,4 @@ should I follow a textbook or just stackoverflow as I go)?
 - Edit variant notes in-line
 - Show saved variant breakdown for family on family/ variant pages
 - Allow variant notes to be saved as gene notes
+
