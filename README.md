@@ -123,3 +123,14 @@ should I follow a textbook or just stackoverflow as I go)?
 - Show saved variant breakdown for family on family/ variant pages
 - Allow variant notes to be saved as gene notes
 
+## Week 4
+07/08 - 07/14
+### Goal 
+Meet kpi!
+- Assign cases to analysts (larger, create a new db model)
+- Edit variant notes in-line
+- Show saved variant breakdown for family on family/ variant pages
+- Allow variant notes to be saved as gene notes
+
+
+

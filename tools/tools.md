@@ -9,7 +9,7 @@
 - new branches ```git checkout -b <new-branch>```
 - delete a branch ```git branch -d <branch-name>```
 - undo staged file ```git reset head```
-    
+  - unstage a single file `git reset -- <file-name>`
 
 # Vim
 
@@ -27,3 +27,14 @@
 - fix any failing tests and pull + push again
 - click "Merge pull request button"
 - don't close out ticket until deployed
+
+### zsh and bash
+- changes
+  - `vim ~/.zshrc` to update changes
+  - then run `source ~/.zshrc` after updating changes
+- switch from bash <--> zsh
+  - `exec bash`
+  - `exec zsh`
+
+### pycharm 
+- press shift twice to search for file in directory 

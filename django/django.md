@@ -1,6 +1,6 @@
 # Django
 
-### pdb
+### Python Debugger
 ```python3
 import pdb
 pdb.set_trace()
@@ -16,7 +16,7 @@ manage.py makemigration
 manage.py migrate
 ```
 
-1-to-1 relationship in model
+1-to-n relationship in model
 ```python
 assigned_to = models.ForeignKey(User, null=True, on_delete=models.SET_NULL, related_name='assigned_families')
 ```
