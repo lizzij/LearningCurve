@@ -10,6 +10,7 @@
 - delete a branch ```git branch -d <branch-name>```
 - undo staged file ```git reset head```
   - unstage a single file `git reset -- <file-name>`
+- stage all except one file `git add -u` then `git reset -- <file>`
 
 # Vim
 

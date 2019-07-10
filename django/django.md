@@ -5,6 +5,15 @@
 import pdb
 pdb.set_trace()
 ```
+- commands
+  - n (next): continue execution until return
+  - s (step): stop at the first possible occasion
+- print
+  - list all the attributes of an object  `p dir(family)`
+  - `type(family)`
+  - `print repr(family)`
+  - `print(family)`
+  - `print(str(family))`
 
 ### Kibana & Elastic Search
 change `debug` to `print` to get Json file in terminal 
@@ -12,8 +21,8 @@ change `debug` to `print` to get Json file in terminal
 ### Django ORM
 Create an automated .py file in seqr/migrations
 ```shell
-manage.py makemigration
-manage.py migrate
+./manage.py makemigration
+./manage.py migrate
 ```
 
 1-to-n relationship in model

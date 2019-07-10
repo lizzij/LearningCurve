@@ -132,5 +132,10 @@ Meet kpi!
 - Show saved variant breakdown for family on family/ variant pages
 - Allow variant notes to be saved as gene notes
 
-
-
+### Note to self:
+In case you can't remember where you left off yesterday:
+- Copy-paste coding is a horrible, horrible thing!
+- You should not be using `project`, but should be using `family`
+- Another difference is project : collaborator = 1 : n, while family : analyst = 1 : 1
+  - thus, you should simplify the implementation and 
+  - remove unnecessary parameters

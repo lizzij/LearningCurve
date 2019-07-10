@@ -17,3 +17,11 @@ includes
 ```javascript
 arr.includes(valueToFind[, fromIndex])
 ```
+
+binds to type 
+```javascript
+function foo(e:MouseEvent){
+   ...
+}
+```
+`e` is binded to type `MouseEvent`
