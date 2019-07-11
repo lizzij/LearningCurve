@@ -51,7 +51,6 @@
     
     console.log(sum.apply(null, numbers));
     // expected output: 6
-    
     ```
 
 - rest parameters (ellipsis)
