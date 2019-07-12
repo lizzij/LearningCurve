@@ -53,3 +53,19 @@
     // expected output: 6
     
     ```
+
+- rest parameters (ellipsis)
+    ```javascript
+    function restParam(...restArgs){
+      console.log(restArgs.length); // Logs the number of arguments passed
+      console.log(restArgs[3]); // Logs the 4th argument
+    }
+    
+    restParam(1,2,3,4,5);
+    // Log would be as follows
+    // 5
+    // 4
+    
+    // 5 is the number of arguments
+    // 4 is the 4th argument
+    ```

@@ -11,6 +11,9 @@
 - undo staged file ```git reset head```
   - unstage a single file `git reset -- <file-name>`
 - stage all except one file `git add -u` then `git reset -- <file>`
+- change last commit date to current date `GIT_COMMITTER_DATE="$(date)" git commit --amend --no-edit --date "$(date)"
+`
+- 
 
 # Vim
 

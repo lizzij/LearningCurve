@@ -67,3 +67,39 @@ export const configureStore = (
   return createStore(rootReducer, initialState, /* preloadedState, */ enhancer)
 }
 ```
+
+### Data Flow
+A data life cycle:
+- Call `store.dispatch(action)`
+  - **Action** describes what happened
+    ```javascript
+    { type: 'ADD_TODO', text: 'Read the Redux docs.' }
+    ```
+- Redux store calls the **reducer** function
+  - the store pass: the current state tree, and the action
+    ```javascript
+    // The current application state (list of todos and chosen filter)
+    let previousState = {
+      visibleTodoFilter: 'SHOW_ALL',
+      todos: [
+        {
+          text: 'Read the docs.',
+          complete: false
+        }
+      ]
+    }
+    
+    // The action being performed (adding a todo)
+    let action = {
+      type: 'ADD_TODO',
+      text: 'Understand the flow.'
+    }
+    
+    // Your reducer returns the next application state
+    let nextState = todoApp(previousState, action)
+    ```
+    - reducer is a pure function that only computes the next state
+- Root reducer may combine the output of multiple reducers into a single state tree
+  - using combined reducer `combineReducers()`
+- Redux store saves the complete state tree returned by the root reducer
+  - UI can be updated to reflect the new state
