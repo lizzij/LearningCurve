@@ -16,6 +16,10 @@
 ` then `git rebase --continue`
     - to arbitrary date `GIT_COMMITTER_DATE="Mon 20 Aug 2018 20:19:19 BST" git commit --amend --no-edit --date "Mon 20 Aug 2018 20:19:19 BST"`
 - change commit message `git commit --amend`
+- undo commit
+  - undo the act of committing, keep staged `git reset --soft HEAD^`
+  - undo the act of committing and everything staged, but keep work tree intact `git reset HEAD^`
+  - throw away uncommitted changes, reset everything to previous commit `git reset --hard HEAD^`
 
 # Vim
 

@@ -1,6 +1,7 @@
 # seqr
 
 ### server side
+(in bash `exec bash`)
 - `./manage.py runserver `  
 - `./manage.py test -p '*tests.py' seqr`  
 - `http://localhost:8000  
@@ -13,7 +14,7 @@
 
 ### elasticsearch 
 - In the top-level seqr code directory, run:  
-```bash
+```zsh
 ./servctl set-env gcloud-prod-es  
 pod_name=$(kubectl get pods -l name=es-client -o jsonpath="{.items[0].metadata.name}")  
 kubectl port-forward $pod_name 9200

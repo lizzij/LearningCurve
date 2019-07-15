@@ -14,7 +14,7 @@ pdb.set_trace()
   - `print repr(family)`
   - `print(family)`
   - `print(str(family))`
-  - print an object (e.g.: user)   
+  - print an object/class (e.g.: user)   
     ```python
     from pprint import pprint
     print pprint(vars(user))
@@ -33,7 +33,7 @@ Create an automated .py file in seqr/migrations
 To undo a migration (e.g. undo `0060`)
 - `./manage.py migrate seqr 0059` where `0059` is the previous migration
 - remove `0060...` file
-- run the above `makemigrations` and `migrate
+- run the above `makemigrations` and `migrate`
 
 1-to-n relationship in model
 ```python

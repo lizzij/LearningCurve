@@ -103,3 +103,45 @@ A data life cycle:
   - using combined reducer `combineReducers()`
 - Redux store saves the complete state tree returned by the root reducer
   - UI can be updated to reflect the new state
+
+#### Selectors 
+- A “selector” is simply a function that accepts Redux state as an argument and returns data that is derived from that state.
+
+#### Reducers 
+
+### Connect
+Material
+- https://react-redux.js.org/api/connect
+- https://blog.logrocket.com/react-redux-connect-when-and-how-to-use-it-f2a1edab2013/
+- [React documentation](https://reactjs.org/docs/getting-started.html)
+- [Redux documentation](https://redux.js.org/)
+
+Data
+- props: read-only, allow a parent component to pass attribute to a child component
+- state: local and encapsulated within the component and can change at any time in the component's lifecycle
+
+Manage application state
+- Redux: state container for js apps
+
+React Redux Connect
+- Presentational Components: how things look, not aware of Redux state, get data from props, might trigger callbacks passed to then via props
+- Container Components: how thins work, aware of Redux state, created using React Redux and may dispatch Redux actions, subscribe to change in the Redux state
+
+When to use `connect()`
+1. Creating container components
+2. Avoiding manual subscription to the Redux store
+
+How to use `connect()`
+- Invoke with base React component to convert it into a higher-orfer container component
+  ```javascript
+  const ContainerComponent = connect()(BaseComponent;
+  ```
+- Signature of the `connect()` function
+  ```javascript
+  connect([mapStateToProps], [mapDispatchToProps], [mergerProps], [options])
+  ```
+  
+  - `mapStateToProps(state, [ownProps]) => stateProps`
+    - a function that returns a plain object or another function
+    - if no store updates: leave as `undefined` or `null`
+    - the first pararmeter is the current state of the Redux store, the second parameter is an object of the props passed to the component (*optional*)
