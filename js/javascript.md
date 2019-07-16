@@ -68,3 +68,6 @@
     // 5 is the number of arguments
     // 4 is the 4th argument
     ```
+    
+- call back function
+  - A function that is to be executed after another function has finished executing, i.e., higher-order functions
