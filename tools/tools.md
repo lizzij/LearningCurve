@@ -20,6 +20,14 @@
   - undo the act of committing, keep staged `git reset --soft HEAD^`
   - undo the act of committing and everything staged, but keep work tree intact `git reset HEAD^`
   - throw away uncommitted changes, reset everything to previous commit `git reset --hard HEAD^`
+- recover a deleted git branch `git branch -D <branch>`
+  - `git reflog` find the SHA1 for the commit at the tip of the deleted branch
+  - `git checkout [sha]` to get to that commit
+  - `git checkout -b [branchname]` to recreate the branch
+  - (or all in one step) `git checkout -b <branch> <sha>`
+- do not commit a file `git rm <file>`
+- go back in time `git checkout <sha>`
+
 
 # Vim
 
