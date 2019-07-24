@@ -71,3 +71,7 @@
     
 - call back function
   - A function that is to be executed after another function has finished executing, i.e., higher-order functions
+
+- `typeof ()`
+
+- `reduce()

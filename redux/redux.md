@@ -88,13 +88,13 @@ A data life cycle:
         }
       ]
     }
-    
+
     // The action being performed (adding a todo)
     let action = {
       type: 'ADD_TODO',
       text: 'Understand the flow.'
     }
-    
+
     // Your reducer returns the next application state
     let nextState = todoApp(previousState, action)
     ```
@@ -104,10 +104,10 @@ A data life cycle:
 - Redux store saves the complete state tree returned by the root reducer
   - UI can be updated to reflect the new state
 
-#### Selectors 
+#### Selectors
 - A “selector” is simply a function that accepts Redux state as an argument and returns data that is derived from that state.
 
-#### Reducers 
+#### Reducers
 
 ### Connect
 Material
@@ -140,8 +140,33 @@ How to use `connect()`
   ```javascript
   connect([mapStateToProps], [mapDispatchToProps], [mergerProps], [options])
   ```
-  
+
   - `mapStateToProps(state, [ownProps]) => stateProps`
     - a function that returns a plain object or another function
     - if no store updates: leave as `undefined` or `null`
     - the first pararmeter is the current state of the Redux store, the second parameter is an object of the props passed to the component (*optional*)
+
+### State
+- Functional (stateless) component
+```javascript
+const MyStatelessComponent = props => <div>{props.name}</div>;
+```
+  - state look like this:
+  ```
+  {
+   type: 'div',
+   props: {
+     children: props.name,
+   }
+  ```
+- Component class has a state, lifecycle hooks
+```javascript
+class MyComponentClass extends React.Component {
+  render() {
+    return <div>{this.props.name}</div>;
+  }
+}
+```
+- Comparison
+  - functional components saves time and space complexity
+  - functional is just for rendering, class component works with state
