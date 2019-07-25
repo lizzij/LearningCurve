@@ -18,7 +18,7 @@
     arr.includes(valueToFind[, fromIndex])
     ```
 
-- binds to type 
+- binds to type
     ```javascript
     function foo(e:MouseEvent) {
        ...
@@ -43,12 +43,12 @@
     function sum(x, y, z) {
       return x + y + z;
     }
-    
+
     const numbers = [1, 2, 3];
-    
+
     console.log(sum(...numbers));
     // expected output: 6
-    
+
     console.log(sum.apply(null, numbers));
     // expected output: 6
     ```
@@ -59,19 +59,21 @@
       console.log(restArgs.length); // Logs the number of arguments passed
       console.log(restArgs[3]); // Logs the 4th argument
     }
-    
+
     restParam(1,2,3,4,5);
     // Log would be as follows
     // 5
     // 4
-    
+
     // 5 is the number of arguments
     // 4 is the 4th argument
     ```
-    
+
 - call back function
   - A function that is to be executed after another function has finished executing, i.e., higher-order functions
 
 - `typeof ()`
 
-- `reduce()
+- `reduce()`
+
+- `let` and `const`

@@ -170,3 +170,6 @@ class MyComponentClass extends React.Component {
 - Comparison
   - functional components saves time and space complexity
   - functional is just for rendering, class component works with state
+
+### Toggle with state
+- https://eddyerburgh.me/toggle-visibility-with-react
