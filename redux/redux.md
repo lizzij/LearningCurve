@@ -47,7 +47,6 @@ const enhancer = composeEnhancers(
 )
 /* eslint-enable */
 
-
 /**
  * Initialize the Redux store
  * @param rootReducer
@@ -171,5 +170,4 @@ class MyComponentClass extends React.Component {
   - functional components saves time and space complexity
   - functional is just for rendering, class component works with state
 
-### Toggle with state
-- https://eddyerburgh.me/toggle-visibility-with-react
+### Toggle with stateless

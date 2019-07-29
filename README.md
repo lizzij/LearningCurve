@@ -140,4 +140,24 @@ In case you can't remember where you left off yesterday:
   - thus, you should simplify the implementation and
   - remove unnecessary parameters
 
-###
+## Week 7
+
+### Reflection for week 5, 6
+A blur really.
+- finished all tickets
+- started large project
+
+General reflection for 1.5 month (6 weeks) point:
+- Goal and timeline for the entire coop
+  - tech understanding of Django, react
+  - other area
+  - med??
+  - get to know ppl
+  - figure out what I wanna do with life
+  - leetcoding
+  - personal projects and hackathons
+
+### Goal for week 7
+- get back on track
+- stop eating at your desk ...
+- finish large project
