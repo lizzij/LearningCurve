@@ -10,7 +10,7 @@
 - [ ] Python, JavaScript
 - [ ] seqr source code
 
-## Week 1 
+## Week 1
 06/25/19 - 06/28/19
 #### Done
 - finished reading the genomics intro
@@ -23,7 +23,7 @@
 ### Progress
 - ready to start on some minor fixed like increasing the size of the image etc.
 - git branches, test, pull request, review process
-- need a refresher on python and javascript (not systematically learned the language, 
+- need a refresher on python and javascript (not systematically learned the language,
 should I follow a textbook or just stackoverflow as I go)?
 
 ### Meeting Notes
@@ -38,16 +38,16 @@ should I follow a textbook or just stackoverflow as I go)?
 - JS
   - ES6 JavaScript (linker, pure js, will caught by the linker)
 - Pull request
-  - clean ui 
+  - clean ui
   - run the ui test and the server test (auto test on PR also)
   - pr/push test one of them failing is fine
   - pass Codacy review (fix the minor errors)
   - approval
   - only then merge the pull request
 - style
-  - break into sub-functions _private (python conventional)
-    - don't explicitly test or export _underscore_function
-  - code should be self-explanatory 
+  - break into sub-functions `_private` (python conventional)
+    - don't explicitly test or export `_underscore_function`
+  - code should be self-explanatory
   - intuitively why something need to be done
   - strange decision decision
  - Add test for PRs
@@ -62,13 +62,13 @@ should I follow a textbook or just stackoverflow as I go)?
       - currently only shallow rendering without crashing test (don't need to add a .test.js test)
       - some selector has robust test (selector.test.js - then add a test)
       - connected components use different test style
-- timeline: > 2 wks, < 3 months 
+- timeline: > 2 wks, < 3 months
   - Increase the size of pedigree image in Inheritance search (maybe, lighter)
   - Allow multiple expanded search categories
   - Add gnomAD sort frequency (both in ui and server, learning ticket)
   - Assign cases to analysts (larger, create a new db model)
 
-## Week 2 
+## Week 2
 06/24/19 - 06/29/19
 
 ### How to do a PR?
@@ -98,14 +98,14 @@ should I follow a textbook or just stackoverflow as I go)?
   - 2 PR, 1 code review
   - to goal? missed 2 PRs, started on 1 later one (missed ~1.5 PRs)
 - Good:
-  - can calm down adn do work at desk 
+  - can calm down adn do work at desk
   - know people and places
   - more familiar with code base and tech stack
 - Bad:
   - balance social & work
-  - do more tutorials! get into the code faster (become fluent in py and 
+  - do more tutorials! get into the code faster (become fluent in py and
   can work as a full-stack web dev first)
-- In general: 
+- In general:
   - don't slack off as time goes by...
   - but don't let the stress get to you either
   - iterate and improve
@@ -113,7 +113,7 @@ should I follow a textbook or just stackoverflow as I go)?
   - start off day with tutorials, end off day with leetcode (?)
   - code more, make more mistakes, **ask A LOT more questions (but google first tho)**
   - make more friends, have more fun
-  
+
 ## Week 3
 07/01 - 07/07
 ### Goal
@@ -125,7 +125,7 @@ should I follow a textbook or just stackoverflow as I go)?
 
 ## Week 4
 07/08 - 07/14
-### Goal 
+### Goal
 Meet kpi!
 - Assign cases to analysts (larger, create a new db model)
 - Edit variant notes in-line
@@ -137,5 +137,7 @@ In case you can't remember where you left off yesterday:
 - Copy-paste coding is a horrible, horrible thing!
 - You should not be using `project`, but should be using `family`
 - Another difference is project : collaborator = 1 : n, while family : analyst = 1 : 1
-  - thus, you should simplify the implementation and 
+  - thus, you should simplify the implementation and
   - remove unnecessary parameters
+
+###

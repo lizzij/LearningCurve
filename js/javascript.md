@@ -77,3 +77,7 @@
 - `reduce()`
 
 - `let` and `const`
+
+- print array of Object
+  - `console.log(arr)`
+  - `JSON.stringify(arr)`
