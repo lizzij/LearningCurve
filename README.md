@@ -161,3 +161,8 @@ General reflection for 1.5 month (6 weeks) point:
 - get back on track
 - stop eating at your desk ...
 - finish large project
+
+### Week 8
+- finish all backlogs
+- finish medium project success story staff page
+- read about compound heterozygosity
