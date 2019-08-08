@@ -11,7 +11,7 @@
 - undo staged file ```git reset head```
   - unstage a single file `git reset -- <file-name>`
 - stage all except one file `git add -u` then `git reset -- <file>`
-- change the date of the last commit 
+- change the date of the last commit
     - change last commit date to current date `GIT_COMMITTER_DATE="$(date)" git commit --amend --no-edit --date "$(date)"
 ` then `git rebase --continue`
     - to arbitrary date `GIT_COMMITTER_DATE="Mon 20 Aug 2018 20:19:19 BST" git commit --amend --no-edit --date "Mon 20 Aug 2018 20:19:19 BST"`
@@ -54,5 +54,19 @@
   - `exec bash`
   - `exec zsh`
 
-### pycharm 
-- press shift twice to search for file in directory 
+### pycharm
+- press shift twice to search for file in directory
+
+### Quality Control
+- formatter
+  - Python - Black, Linter, PyLint
+  - JS - Prettier, EsLint
+- automated test
+  - Python - PyLint
+  - JS - Jest
+- test coverage
+  - happy path testing
+- version pinning
+  - Python `pip freeze`
+  - Docker
+- documentation

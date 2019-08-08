@@ -22,5 +22,3 @@ kubectl port-forward $pod_name 9200
 ```
 - https://github.com/macarthur-lab/seqr-private/blob/master/tunnel_to_production_data.md
 - https://kubernetes.io/docs/tasks/tools/install-kubectl/
-
-### orm to json
