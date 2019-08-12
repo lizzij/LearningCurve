@@ -166,3 +166,7 @@ General reflection for 1.5 month (6 weeks) point:
 - finish all backlogs
 - finish medium project success story staff page
 - read about compound heterozygosity
+
+### Week 9
+- social, leetcode and personal projects
+- start on compound het project
