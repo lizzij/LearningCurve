@@ -162,11 +162,17 @@ General reflection for 1.5 month (6 weeks) point:
 - stop eating at your desk ...
 - finish large project
 
-### Week 8
+## Week 8
 - finish all backlogs
 - finish medium project success story staff page
 - read about compound heterozygosity
 
-### Week 9
+## Week 9
+Aug 12 - Aug 17
 - social, leetcode and personal projects
 - start on compound het project
+
+### Goal for week 9
+- solid start (background reading) for compound het project
+- know what you want and how to get there
+- be awake and prepared
