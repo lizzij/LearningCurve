@@ -41,4 +41,9 @@ ah finally...
 
 ## es search
 - understand `es-utils.py`
-- do `elastic 6` tutorials
+- do `elastic 6.2` tutorials
+
+## Plan
+- compound het db and ui
+- move onto search options
+- prediction for likelihood of compound het
