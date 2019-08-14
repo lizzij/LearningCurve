@@ -3,8 +3,10 @@ ah finally...
 
 ## proposal
 ### What is a compound heterozygosity gene?
+- Definition: A compound heterozygous polymorphism refers to a child that has inherited two different heterozygous polymorphisms within the same gene, one from each parent. This could result in both copies of the gene being potentially affected.
+  - The human genome contains two copies of each gene, a paternal and a maternal allele. A mutation affecting only one allele is called heterozygous. A homozygous mutation is the presence of the identical mutation on both alleles of a specific gene. However, when both alleles of a gene harbor mutations, but the mutations are different, these mutations are called compound heterozygous.
 - Recessive restricted search: one allele from each parent &rarr; child inherit two copies of the mutated allele
-- For example, SCRIB in RGP_402 Family (Rare Genomes Project_Genomes) is a compound het
+- For example, SCRIB in RGP_402 Family (Rare Genomes Project) is a compound het
 - Assumptions about compound hets:
   - there are only pairs (i.e. in 2s)
   - tags and notes should be the same for each pair of compound het
