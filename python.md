@@ -10,6 +10,19 @@ $ echo $?
 ### random
 - list all attributes of an object `<object_name>.__dict__.keys()
 `
+- `class collections.defaultdict([default_factory[, ...]])`
+- `|=` ior: `var |= value` is short for `var = var | value`
+- lambda `lambda x, y: x + y` then `_(1, 2)` outputs `3`, which is the same as the immediately invoked function execution (IIFE) `(lambda x, y: x + y)(1, 2)`
+- the keyword argument unpacking syntax in a list of arguments
+  - `*args`: argument unpacking
+  - `**kwargs`: keyword argument unpacking
+  ```
+  args = (1, 2, 3)  # usually a tuple, always an iterable[1]
+  f(*args) → f(1, 2, 3)
+  # and
+  kwargs = {"a": 1, "b": 2, "c": 3}  # usually a dict, always a mapping*
+  f(**kwargs) -> f(a=1, b=2, c=3)
+  ```
 
 ### Classes and Objected-oriented Programming in Python
 - Object is an instance of the Class
