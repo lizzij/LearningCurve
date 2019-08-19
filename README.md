@@ -176,3 +176,7 @@ Aug 12 - Aug 17
 - solid start (background reading) for compound het project
 - know what you want and how to get there
 - be awake and prepared
+
+## Week 10
+Aug 19 - 23 (25)
+- start Safari book series

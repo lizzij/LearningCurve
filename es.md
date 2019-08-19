@@ -32,7 +32,54 @@ GET /bank/_search
 ### Aggregations
 - Metrics aggregations: compute metrics basd on values extracted from documents aggregated
   - Top hits aggregation:
-- Bucket Aggregations: create buckets of documents, where each bucket is associated with a vriterion
+- Bucket Aggregations: create buckets of documents, where each bucket is associated with a criterion
 
 ### ES DSL
 - `Search` object
+
+# Elasticsearch: The Definitive Guide
+### 1O1
+- Apache Lucene (a full-text search-engine library) + Elasticserch (in Java) RESTful API: every fielde is indexed adn serachable
+- Java API (node/transport client) or RESTful API (port 9200) with JSON over HTTP
+
+- relational DB vs Elasticsearch
+  - relational = flatten the object to fit thte table schema vs document oriented, indexed
+  ```
+  Relational DB  ⇒ Databases ⇒ Tables ⇒ Rows      ⇒ Columns
+  Elasticsearch  ⇒ Indices   ⇒ Types  ⇒ Documents ⇒ Fields
+  ```
+
+- basic demo
+  - indexing (put) [what is megacorp :question: (or index in general)]
+  - retrieving (get)
+  - search lite (search)
+    - query-string search
+    - query DSL
+      - match query
+      - filter
+      - full-text search (with relevance score) `match`
+      - phrase search `match_phrase`
+      - highlight
+    - analytics
+
+- distributed nature
+
+### shards
+
+### data
+- document: root object serialized into JSON and stored under a unique ID
+- three required metadata
+  - `_index` where the document lives (like a database in a relational db)
+  - `_type` the class of object that the document represents
+  - `_id` the unique identifier for the documnent
+- indexing a documnent
+  - `PUT` or `POST` (autogenerate ID)
+- retriving a document
+  -  `GET` (whole document) or specify `_source` parameter (part of the document)
+- check if a document exists
+  -  `HEAD`
+- update a whole document
+  - `PUT`
+- creating a new document
+  - `POST` or `PUT` with `op_type=create`/`_create`
+- deleting a document
