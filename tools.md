@@ -70,3 +70,12 @@
   - Python `pip freeze`
   - Docker
 - documentation
+
+### pdb
+- commands for usages like pretty print etc
+```
+(Pdb) commands 1
+(com) p some_variable
+(com) end
+(Pdb)
+```

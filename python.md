@@ -26,7 +26,8 @@ $ echo $?
 
 ### Classes and Objected-oriented Programming in Python
 - Object is an instance of the Class
-```Python
+
+```py
 class Shark:
     # constructor method (to initalize data)
     def __init__(self, name, age):
@@ -49,8 +50,10 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
 - object inheritance
-```Python
+
+```py
 # Parent class
 class Dog:
 
@@ -91,5 +94,7 @@ print(jim.description())
 # Child classes have specific attributes
 # and behaviors as well
 print(jim.run("slowly"))
-
 ```
+
+### closure
+- for encapsulation

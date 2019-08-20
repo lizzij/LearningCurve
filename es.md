@@ -64,7 +64,7 @@ GET /bank/_search
 
 - distributed nature
 
-### shards
+### cluster
 
 ### data
 - document: root object serialized into JSON and stored under a unique ID
@@ -83,3 +83,4 @@ GET /bank/_search
 - creating a new document
   - `POST` or `PUT` with `op_type=create`/`_create`
 - deleting a document
+  - `DELETE`

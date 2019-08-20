@@ -49,3 +49,18 @@ ah finally...
 - compound het db and ui
 - move onto search options
 - prediction for likelihood of compound het
+
+## Random
+- check if JSON object is a JSON Array or JSON Object
+```
+import json
+
+# assume that, each line is valid json data
+obj = json.loads(line)
+
+# if returns true, then JSON Array
+isinstance(obj, list)
+
+# if returns true, then JSON Object.
+isinstance(obj, dict)
+```
