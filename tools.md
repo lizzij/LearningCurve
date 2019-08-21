@@ -79,3 +79,7 @@
 (com) end
 (Pdb)
 ```
+
+### debug
+- in webpack (dev tool)
+- use breakpoints
