@@ -27,6 +27,7 @@
   - (or all in one step) `git checkout -b <branch> <sha>`
 - do not commit a file `git rm <file>`
 - go back in time `git checkout <sha>`
+- compare tow branches `git diff <masterbranch_path> <remotebranch_path>`
 
 
 # Vim
