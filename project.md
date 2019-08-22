@@ -64,3 +64,6 @@ isinstance(obj, list)
 # if returns true, then JSON Object.
 isinstance(obj, dict)
 ```
+- for viewing es output use `localhost:3000/api/search/<index>`
+
+- current redis key is `search_results__VSR0009866_f1a64a99936eb356dbb__xpos`
