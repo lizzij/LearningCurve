@@ -52,7 +52,8 @@ ah finally...
 
 ## Random
 - check if JSON object is a JSON Array or JSON Object
-```
+
+```py
 import json
 
 # assume that, each line is valid json data
