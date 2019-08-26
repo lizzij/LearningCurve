@@ -23,5 +23,17 @@ kubectl port-forward $pod_name 9200
 - https://github.com/macarthur-lab/seqr-private/blob/master/tunnel_to_production_data.md
 - https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
+### db migration
+- to create an automated .py file in seqr/migrations
+```shell
+./manage.py makemigrations
+./manage.py migrate
+```
+
+- to undo a migration (e.g. undo `0060`)
+- `./manage.py migrate seqr 0059` where `0059` is the previous migration
+- remove `0060...` file
+- run the above `makemigrations` and `migrate`
+
 ### redis
 - `./deploy/install_local.step5.install_redis.sh` install and have it running

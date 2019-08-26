@@ -21,7 +21,7 @@ pdb.set_trace()
     ```
 
 ### Kibana & Elastic Search
-change `debug` to `print` to get Json file in terminal 
+change `debug` to `print` to get Json file in terminal
 
 ### Django ORM
 Create an automated .py file in seqr/migrations
@@ -47,3 +47,11 @@ Here `related_name` attribute provide a reverse accessor to prevent duplicated b
 1. define api usage in corresponding `seqr/views/apis/*_api.py` file
 2. test api in corresponding `seqr/views/apis/*_api_tests.py` file
 3. update urls in `urls.py` (import and regex pattern)
+
+### Model (database)
+- a `Model` has `Fields` with `Field types` and `Field options`
+- relationships
+  - many-to-one relationships
+  - many-to-many relationships
+  - extra fields on many-to-many relationships
+  - one-to-one relationship
