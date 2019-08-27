@@ -180,3 +180,9 @@ Aug 12 - Aug 17
 ## Week 10
 Aug 19 - 23 (25)
 - start Safari book series
+
+## Week 11
+Aug 26 - 30 (1)
+- Goal: finish compound hets project
+- Booklist: start, measure speed
+- other: deliver POR
