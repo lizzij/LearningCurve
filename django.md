@@ -55,3 +55,5 @@ Here `related_name` attribute provide a reverse accessor to prevent duplicated b
   - many-to-many relationships
   - extra fields on many-to-many relationships
   - one-to-one relationship
+
+#### Many-to-many relationships

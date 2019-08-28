@@ -119,3 +119,51 @@ print(jim.run("slowly"))
 ### closure
 
 - for encapsulation
+
+### `*args` and `**kwargs`
+- used in function definitions to pass a **variable** number of arguments to a function
+  - `*args`: send a **non-keyworded** variable length argument list to the function
+
+    ```python
+    def test_var_args(f_arg, *argv):
+      print("first normal arg:", f_arg)
+      for arg in argv:
+          print("another arg through *argv:", arg)
+
+    test_var_args('yasoob', 'python', 'eggs', 'test')
+
+    # first normal arg: yasoob
+    # another arg through *argv: python
+    # another arg through *argv: eggs
+    # another arg through *argv: test
+    ```
+
+  - `**kwargs`: pass **keyworded** variable length of arguments to a function (used for handling **named arguments** in a function)
+
+    ```Python
+    def greet_me(**kwargs):
+      for key, value in kwargs.items():
+          print("{0} = {1}".format(key, value))
+
+    >>> greet_me(name="yasoob")
+    name = yasoob
+    ```
+  - comparision
+    ```python
+    # first with *args
+    >>> args = ("two", 3, 5)
+    >>> test_args_kwargs(*args)
+    arg1: two
+    arg2: 3
+    arg3: 5
+
+    # now with **kwargs:
+    >>> kwargs = {"arg3": 3, "arg2": "two", "arg1": 5}
+    >>> test_args_kwargs(**kwargs)
+    arg1: 5
+    arg2: two
+    arg3: 3
+    ```
+  - when to use them?
+    - when making function decorators
+    - used in monkey patching (modifying some code at runtime)
