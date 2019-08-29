@@ -2,10 +2,10 @@
 
 ### pip
 - if a module is already installed
-```bash
-$ python -c "import math"
-$ echo $?
-```
+  ```bash
+  $ python -c "import math"
+  $ echo $?
+  ```
 
 ### random
 - list all attributes of an object `<object_name>.__dict__.keys()
@@ -15,33 +15,45 @@ $ echo $?
 - lambda `lambda x, y: x + y` then `_(1, 2)` outputs `3`, which is the same as the immediately invoked function execution (IIFE) `(lambda x, y: x + y)(1, 2)`
 - the keyword argument unpacking syntax in a list of arguments
   - `*args`: argument unpacking
-  - `**kwargs`: keyword argument unpacking
-  ```
-  args = (1, 2, 3)  # usually a tuple, always an iterable[1]
-  f(*args) → f(1, 2, 3)
-  # and
-  kwargs = {"a": 1, "b": 2, "c": 3}  # usually a dict, always a mapping*
-  f(**kwargs) -> f(a=1, b=2, c=3)
-  ```
+  - `**kwargs`: keyword argument unpacMking
+    ```
+    args = (1, 2, 3)  # usually a tuple, always an iterable[1]
+    f(*args) → f(1, 2, 3)
+    # and
+    kwargs = {"a": 1, "b": 2, "c": 3}  # usually a dict, always a mapping*
+    f(**kwargs) -> f(a=1, b=2, c=3)
+    ```
 
 - enumerate: loop over with an automatic counter
 
-```py
-for counter, value in enumerate(some_list):
-  print(counter, value)
-```
+  ```py
+  for counter, value in enumerate(some_list):
+    print(counter, value)
+  ```
 
-```py
-my_list = ['apple', 'banana', 'grapes', 'pear']
-for c, value in enumerate(my_list, 1): # here "1" is the optional start index
-    print(c, value)
+  ```py
+  my_list = ['apple', 'banana', 'grapes', 'pear']
+  for c, value in enumerate(my_list, 1): # here "1" is the optional start index
+      print(c, value)
 
-# Output:
-# 1 apple
-# 2 banana
-# 3 grapes
-# 4 pear
-```
+  # Output:
+  # 1 apple
+  # 2 banana
+  # 3 grapes
+  # 4 pear
+  ```
+
+- `list_name.pop(index)` return + remove value at index or the last element (when index is not given)
+
+- try-except-finally: finally always executed
+  ```py
+  try:
+    print(x)
+  except:
+    print("Something went wrong")
+  finally:
+    print("The 'try except' is finished")
+  ```
 
 ### Classes and Objected-oriented Programming in Python
 

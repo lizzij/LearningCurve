@@ -57,6 +57,7 @@
 
 ### pycharm
 - press shift twice to search for file in directory
+- fix merge conflict `VCS > Git > Resolve Conflicts`
 
 ### Quality Control
 - formatter

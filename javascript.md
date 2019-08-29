@@ -101,3 +101,14 @@
   b--;
   --b;
   ```
+
+### Working with JSON
+- JSON: a string, a **data format** following JavaScript object syntax
+- access in dot/bracket notation, can be used with index
+  ```
+  superHeroes.homeTown
+  superHeroes['active']
+  superHeroes['members'][1]['powers'][2]
+  ```
+- arrays as JSON
+  - `[object0, object1, object2]`
