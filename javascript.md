@@ -93,7 +93,7 @@
 - increment / decrement
   ```javascript
   // Increment
-  let a = 1;
+  let a = 1;M
   a++;
   ++a;
   // Decrement
@@ -102,9 +102,19 @@
   --b;
   ```
 
+
+### ES6 shorthand
+- if else `const ans = x > 10 ? 'greater than 10' : 'less or equal to 10'`
+- short-circuit evaluation shorthand `const variable1 = variable2 || 'if variable2 is null'`
+- decleration shorthand `let x, y, z=3`
+- if true or not null `if (isPresent) ... ` and `if (!notTrue)`
+- for loop shorthand `for (let fruit of fruits)` or `for (let index in fruits)`
+
+
 ### Working with JSON
 - JSON: a string, a **data format** following JavaScript object syntax
 - access in dot/bracket notation, can be used with index
+
   ```
   superHeroes.homeTown
   superHeroes['active']
@@ -112,3 +122,11 @@
   ```
 - arrays as JSON
   - `[object0, object1, object2]`
+
+
+### null vs undefined vs not defined in javascript
+- ```
+  let nothing;
+  typeof nothing === 'undefined';   // => true
+  ```
+  (btw, use `const` or `let` instead of `var`)
