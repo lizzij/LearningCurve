@@ -186,3 +186,17 @@ Aug 26 - 30 (1)
 - Goal: finish compound hets project
 - Booklist: start, measure speed
 - other: deliver POR
+
+## Week 12
+Sept 3 - 5
+- meeting background knowledge
+  - for profit gene sequencing companies: XCode, 23andMe, Ancestry DNA, FTDNA, MyHeritage DNA, Gene for Good, Helix
+  - BioHackathon ideas
+    - variant facts: allow patients and families to subscribe to updates about pathogenicity of certain vairant by signing up and getting emails
+    - using Clinvar adn the McArthur lab parser
+
+## Week 13
+Sept 9 - 13 (15)
+- 收心！
+- 拿个奖，秋招
+- finish the larger project
