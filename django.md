@@ -57,3 +57,24 @@ Here `related_name` attribute provide a reverse accessor to prevent duplicated b
   - one-to-one relationship
 
 #### Many-to-many relationships
+
+#### Complex loopups with **Q** objects
+- the Q object is used to encapsulate a collection of field loopups (keyword arguements)
+  ```SQL
+  from django.db.models import Q
+  Q(question__startswith='What')
+  ```
+- can be combined using `&`, `|` and `~` operators
+  - example and SQL quivalent
+    ```SQL
+    Q(question__startswith='Who') | Q(question__startswith='What')
+    ```
+    ```SQL
+    WHERE question LIKE 'Who%' OR question LIKE 'What%'
+    ```
+
+#### Retrieving specific object swith filter
+- return `QuerySet`
+  - `all()`
+  - `filter(**kwargs)`
+  - `exclude(**kwargs)`

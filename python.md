@@ -54,6 +54,18 @@
   finally:
     print("The 'try except' is finished")
   ```
+- single line for loop
+  ```py
+  item for item in list_of_items
+  ```
+  ```py
+  def long_words(lst):
+    return [word for word in lst if len(word) > 5]
+  ```
+
+
+
+
 
 ### Classes and Objected-oriented Programming in Python
 

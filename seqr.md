@@ -22,6 +22,9 @@ kubectl port-forward $pod_name 9200
 ```
 - https://github.com/macarthur-lab/seqr-private/blob/master/tunnel_to_production_data.md
 - https://kubernetes.io/docs/tasks/tools/install-kubectl/
+- update elasticsearch index
+  - start mongoDB `brew services start mongodb`
+  - go to staff/elasticsearch_status [page](https://seqr.broadinstitute.org/staff/elasticsearch_status)
 
 ### db migration
 - to create an automated .py file in seqr/migrations
