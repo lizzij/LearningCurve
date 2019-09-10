@@ -28,6 +28,8 @@
 - do not commit a file `git rm <file>`
 - go back in time `git checkout <sha>`
 - compare tow branches `git diff <masterbranch_path> <remotebranch_path>`
+- rename a branch `git branch -m <old-name> <new-name>`
+- list all branch (including remote branches) `git branch -a`
 
 
 # Vim
@@ -75,12 +77,16 @@
 
 ### pdb
 - commands for usages like pretty print etc
-```
-(Pdb) commands 1
-(com) p some_variable
-(com) end
-(Pdb)
-```
+  ```
+  (Pdb) commands 1
+  (com) p some_variable
+  (com) end
+  (Pdb)
+  ```
+- multi-line statement in pdb
+  - user `interact` mode with `!import code; code.interact(local=vars())`
+  - use `;` to indicate line
+
 
 ### debug
 - in webpack (dev tool)

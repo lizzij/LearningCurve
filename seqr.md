@@ -14,7 +14,7 @@
 
 ### elasticsearch
 - In the top-level seqr code directory, run:  
-```zsh
+```bash
 source ~/.bash_profile
 ./servctl set-env gcloud-prod-es  
 pod_name=$(kubectl get pods -l name=es-client -o jsonpath="{.items[0].metadata.name}")  
