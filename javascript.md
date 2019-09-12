@@ -102,6 +102,10 @@
   --b;
   ```
 
+- `.forEach()` vs `.map()`
+  - `.forEach()`: by
+  - `.map()`: by value
+
 
 ### ES6 shorthand
 - if else `const ans = x > 10 ? 'greater than 10' : 'less or equal to 10'`
