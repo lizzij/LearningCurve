@@ -103,8 +103,8 @@
   ```
 
 - `.forEach()` vs `.map()`
-  - `.forEach()`: by
-  - `.map()`: by value
+  - `.forEach()`: in place
+  - `.map()`: creates new array
 
 
 ### ES6 shorthand
