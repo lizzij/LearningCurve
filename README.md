@@ -200,3 +200,6 @@ Sept 9 - 13 (15)
 - 收心！
 - 拿个奖，秋招
 - finish the larger project
+
+## Week 14
+Sept 16 - 22
