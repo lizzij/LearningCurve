@@ -203,3 +203,5 @@ Sept 9 - 13 (15)
 
 ## Week 14
 Sept 16 - 22
+- hard deadline: Web morning code review
+- in 2 days: debug, test and hopefully finish dashboard
