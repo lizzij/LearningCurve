@@ -30,6 +30,7 @@
 - compare tow branches `git diff <masterbranch_path> <remotebranch_path>`
 - rename a branch `git branch -m <old-name> <new-name>`
 - list all branch (including remote branches) `git branch -a`
+- `git diff COMMIT~ COMMIT` will show you the difference between that `COMMIT`'s ancestor and the `COMMIT`.
 
 
 # Vim
