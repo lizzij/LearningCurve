@@ -63,6 +63,25 @@
     return [word for word in lst if len(word) > 5]
   ```
 
+- check if JSON object is a JSON Array or JSON Object
+
+  ```py
+  import json
+
+  # assume that, each line is valid json data
+  obj = json.loads(line)
+
+  # if returns true, then JSON Array
+  isinstance(obj, list)
+
+  # if returns true, then JSON Object.
+  isinstance(obj, dict)
+  ```
+  - for viewing es output use `localhost:3000/api/search/<index>`
+
+  - current redis key is `search_results__VSR0009866_f1a64a99936eb356dbb__xpos`
+
+  - for just testing one file `./manage.py test -p 'es_utils_tests.py' seqr`
 
 
 
