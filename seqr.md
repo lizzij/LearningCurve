@@ -40,3 +40,4 @@ kubectl port-forward $pod_name 9200
 
 ### redis
 - `./deploy/install_local.step5.install_redis.sh` install and have it running
+- check if Redis is working `redis-cli ping`
