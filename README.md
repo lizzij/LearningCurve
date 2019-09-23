@@ -205,3 +205,7 @@ Sept 9 - 13 (15)
 Sept 16 - 22
 - hard deadline: Web morning code review
 - in 2 days: debug, test and hopefully finish dashboard
+
+## Week 15
+Sept 23 - 27 (29)
+- Ship bug free, high qulity code that does what it's supposed to do
