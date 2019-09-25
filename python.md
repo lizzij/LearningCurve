@@ -1,5 +1,25 @@
 # python
 
+### Python Debugger
+```python3
+import pdb
+pdb.set_trace()
+```
+- commands
+  - n (next): continue execution until return
+  - s (step): stop at the first possible occasion
+- print
+  - list all the attributes of an object  `p dir(family)`
+  - `type(family)`
+  - `print repr(family)`
+  - `print(family)`
+  - `print(str(family))`
+  - print an object/class (e.g.: user)   
+    ```python
+    from pprint import pprint
+    print pprint(vars(user))
+    ```
+
 ### pip
 - if a module is already installed
   ```bash

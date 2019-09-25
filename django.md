@@ -1,28 +1,5 @@
 # Django
 
-### Python Debugger
-```python3
-import pdb
-pdb.set_trace()
-```
-- commands
-  - n (next): continue execution until return
-  - s (step): stop at the first possible occasion
-- print
-  - list all the attributes of an object  `p dir(family)`
-  - `type(family)`
-  - `print repr(family)`
-  - `print(family)`
-  - `print(str(family))`
-  - print an object/class (e.g.: user)   
-    ```python
-    from pprint import pprint
-    print pprint(vars(user))
-    ```
-
-### Kibana & Elastic Search
-change `debug` to `print` to get Json file in terminal
-
 ### Django ORM
 Create an automated .py file in seqr/migrations
 ```shell
@@ -81,6 +58,7 @@ Here `related_name` attribute provide a reverse accessor to prevent duplicated b
 
 #### RunPython
 - run custom Python code in a historical context
+- pass `RunPython.noop` when nothing needs to be done
   ```python
   from django.db import migrations
 
@@ -110,3 +88,17 @@ Here `related_name` attribute provide a reverse accessor to prevent duplicated b
           migrations.RunPython(forwards_func, reverse_func),
       ]
   ```
+
+## Testing
+
+### Provided test case classes
+TestCase  
+&uarr;  
+SimpleTestCase  
+&uarr;  
+TransactionTestCase &larr; Live Server Test Case  
+&uarr;  
+TestCase   
+
+- TransactionTestCase
+  - resetting db using database fixtures

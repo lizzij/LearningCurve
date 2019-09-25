@@ -84,3 +84,6 @@ GET /bank/_search
   - `POST` or `PUT` with `op_type=create`/`_create`
 - deleting a document
   - `DELETE`
+
+### Kibana & Elastic Search
+change `debug` to `print` to get Json file in terminal
