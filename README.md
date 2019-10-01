@@ -209,3 +209,7 @@ Sept 16 - 22
 ## Week 15
 Sept 23 - 27 (29)
 - Ship bug free, high qulity code that does what it's supposed to do
+
+## Week 16
+Oct 1 - 4 (6)
+- Finish compound hets and start on search 
