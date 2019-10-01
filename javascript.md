@@ -106,6 +106,14 @@
   - `.forEach()`: in place
   - `.map()`: creates new array
 
+- `Object.entries()` and `Object.values()`
+  - `Object.entries()` returns an array of a given object's own enumerable string-keyed property [key, value] pairs, in the same order as that provided by a `for...in` loop
+  - `Object.values()` returns an array of a given object's own enumerable property values, in the same order as that provided by a `for...in` loop
+  - the difference: array of [key, value] pairs (`[Array(2), Array(2)...]`) vs array of value
+
+- `Array.prototype.find()` returns the value of the first element in the provided array that satisfies the provided testing function
+
+- `Array.prototype.some()` tests whether at least one element in the array passes the test implemented by the provided function. It returns a Boolean value
 
 ### ES6 shorthand
 - if else `const ans = x > 10 ? 'greater than 10' : 'less or equal to 10'`
@@ -129,7 +137,8 @@
 
 
 ### null vs undefined vs not defined in javascript
-- ```
+- nothing
+  ```
   let nothing;
   typeof nothing === 'undefined';   // => true
   ```
