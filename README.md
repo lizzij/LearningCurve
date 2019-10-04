@@ -224,4 +224,5 @@ Oct 1 - 4 (6)
     - [ ] select the rest as secondary gene
   - [ ] fix download in search page
   - [ ] resolve UI console errors
+  - [ ] forward compatible with xbrowse
   - [ ] run `reset_cached_variant` after deploying
