@@ -214,15 +214,19 @@ Sept 23 - 27 (29)
 Oct 1 - 4 (6)
 - Finish compound hets and start on search
 - Compound Hets project progress checklist
-  - [ ] fix CRUD
-    - [ ] use helper for checking if is compound het in reducer
-    - [ ] fix test and add edge cases test
-  - [ ] check if database migration is done correctly
-    - [ ] (!!! check download discovery sheet as well)
-  - [ ] main and secondary
-    - [ ] break multi family compound hets into different lists
-    - [ ] select the rest as secondary gene
-  - [ ] fix download in search page
-  - [ ] resolve UI console errors
-  - [ ] forward compatible with xbrowse
-  - [ ] run `reset_cached_variant` after deploying
+  - fix CRUD
+    - use helper for checking if is compound het in reducer
+    - fix test and add edge cases test
+  - check if database migration is done correctly
+    - (!!! check download discovery sheet as well)
+  - main and secondary
+    - break multi family compound hets into different lists
+    - select the rest as secondary gene
+  - fix download in search page
+  - resolve UI console errors
+  - forward compatible with xbrowse
+  - run `reset_cached_variant` after deploying
+
+## Week 17
+Oct 7 - 11 (13)
+- Merge (refactor, make minor adjustments) compound hets...
