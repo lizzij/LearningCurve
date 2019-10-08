@@ -230,3 +230,8 @@ Oct 1 - 4 (6)
 ## Week 17
 Oct 7 - 11 (13)
 - Merge (refactor, make minor adjustments) compound hets...
+- Notes from seqr lab meeting
+  - data pipeline
+    - memorization
+    - I/O CPU bound, resource applocation
+    - Airflow
