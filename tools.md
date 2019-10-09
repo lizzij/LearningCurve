@@ -89,6 +89,7 @@
   - use `;` to indicate line
 
 
-### debug
+### Chome Dev Tool
 - in webpack (dev tool)
 - use breakpoints
+- use `-/pedigree_images/` to hide all console output containing the word `pedigree_images`
