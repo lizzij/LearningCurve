@@ -235,3 +235,8 @@ Oct 7 - 11 (13)
     - memorization
     - I/O CPU bound, resource applocation
     - Airflow
+
+## Week 18
+Oct 15 - 18 (20)
+- implement everything first
+- ask throughout Wed, Thur, Fri

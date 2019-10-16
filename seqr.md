@@ -38,6 +38,10 @@ kubectl port-forward $pod_name 9200
 - remove `0060...` file
 - run the above `makemigrations` and `migrate`
 
+### restore from production database
+- find scripts in [private seqr repo](https://github.com/macarthur-lab/seqr-private)
+- run `./download_and_restore_seqr_production_backup.sh local` in the root directory of the seqr repo
+
 ### redis
 - `./deploy/install_local.step5.install_redis.sh` install and have it running
 - check if Redis is working `redis-cli ping`
