@@ -45,3 +45,10 @@ kubectl port-forward $pod_name 9200
 ### redis
 - `./deploy/install_local.step5.install_redis.sh` install and have it running
 - check if Redis is working `redis-cli ping`
+
+### es_util
+- when running the same search
+  - start redis client with `redis-cli`
+  - find the search hash in `searchesByHash` from `store`
+  - delete with `DEL "search_results__VSR0021595_fe451c0cdf0ee1634e4__xpos"`
+  - check all hashes with `KEYS '*'`

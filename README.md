@@ -239,4 +239,4 @@ Oct 7 - 11 (13)
 ## Week 18
 Oct 15 - 18 (20)
 - implement everything first
-- ask throughout Wed, Thur, Fri
+- clarify question throughout Wed, Thur, Fri
