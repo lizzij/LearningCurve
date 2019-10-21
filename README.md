@@ -240,3 +240,7 @@ Oct 7 - 11 (13)
 Oct 15 - 18 (20)
 - implement everything first
 - clarify question throughout Wed, Thur, Fri
+- todos:
+  - finish family grouped together in es search
+  - understand es_utils
+  - prepare to clarify compound hets edge cases
