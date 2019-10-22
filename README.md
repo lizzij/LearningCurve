@@ -244,3 +244,9 @@ Oct 15 - 18 (20)
   - finish family grouped together in es search
   - understand es_utils
   - prepare to clarify compound hets edge cases
+
+## Week 19
+Oct 21 - 25
+- review Compound Hets pull request
+- fix
+- start with search 
