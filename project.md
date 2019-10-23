@@ -72,3 +72,4 @@ This rule is a compact version of:
 ---
 
 # Project 2: Coding & None-coding Search
+In variant search, when the Inheritance mode is "Compound Hets" (or "Recessive", but implement CH first): A **secondary Annotation** hit criteria should appear under annoation to filter for compound hets pairs that each satisfy one of the annoation criteria.
