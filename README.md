@@ -249,4 +249,8 @@ Oct 15 - 18 (20)
 Oct 21 - 25
 - review Compound Hets pull request
 - fix
-- start with search 
+- start with search
+
+- adjustment to plan:
+  - deploy compound het in October
+  - start with basics for search
