@@ -72,4 +72,8 @@ This rule is a compact version of:
 ---
 
 # Project 2: Coding & None-coding Search
+## Current situation and Needs
+When searching for compound hets, both compound hets have to satisfy the criteria proposed, and two searches has to be done to find the target pair od compound hets; whereas what is needed is for one of the compound hets to satisfy the first set of constraints and the other satify the second set of constraints.
+
+## proposal
 In variant search, when the Inheritance mode is "Compound Hets" (or "Recessive", but implement CH first): A **secondary Annotation** hit criteria should appear under annoation to filter for compound hets pairs that each satisfy one of the annoation criteria.
