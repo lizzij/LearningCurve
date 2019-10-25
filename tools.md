@@ -93,3 +93,8 @@
 - in webpack (dev tool)
 - use breakpoints
 - use `-/pedigree_images/` to hide all console output containing the word `pedigree_images`
+- read `JSONReponse Object reponse` with
+```py
+import requests
+requests.get(reponse)
+```
