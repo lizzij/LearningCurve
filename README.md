@@ -254,3 +254,6 @@ Oct 21 - 25
 - adjustment to plan:
   - deploy compound het in October
   - start with basics for search
+
+## Week 20
+Oct 28 - Nov 1

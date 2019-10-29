@@ -37,13 +37,12 @@ connect(
 ```
 
 ### Redux Chrome Extension
-in configureStore.js line 22-48(49)
+in configureStore.js line 21-43
 ```javascript
 /* eslint-disable no-underscore-dangle */
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 const enhancer = composeEnhancers(
   applyMiddleware(thunkMiddleware, persistStoreMiddleware),
-  reduxSearchEnhancer,
 )
 /* eslint-enable */
 
@@ -65,6 +64,7 @@ export const configureStore = (
 
   return createStore(rootReducer, initialState, /* preloadedState, */ enhancer)
 }
+
 ```
 
 ### Data Flow
