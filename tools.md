@@ -61,6 +61,7 @@
 ### pycharm
 - press shift twice to search for file in directory
 - fix merge conflict `VCS > Git > Resolve Conflicts`
+- `⌘B` navigate to declaratino of a symbol at caret
 
 ### Quality Control
 - formatter
