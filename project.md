@@ -69,6 +69,25 @@ This rule is a compact version of:
 - move onto search options
 - prediction for likelihood of compound het
 
+## Inheritance search documentation
+*seqr* implements the following set of standard Mendelian inheritance methods to identify variants that segregate with a phenotype in a family
+- Recessive
+  - This method identifies genes with any evidence of recessive variation. It is the union of all variants returned by the homozygous recessive, x-linked recessive, and compound heterozygous methods.
+- Homozygous Recessive
+  - Finds variants where all affected individuals are Alt / Alt and each of their parents Heterozygous.
+- X-Linked Recessive
+  - Recessive inheritance on the X Chromosome. This is similar to the homozygous recessive search, but a proband's father must be homozygous reference. (This is how hemizygous genotypes are called by current variant calling methods.)
+- Compound Heterozygous
+  - Affected individual(s) have two heterozygous mutations in the same gene on opposite haplotypes. Unaffected individuals cannot have the same combination of alleles as affected individuals, or be homozygous alternate for any of the variants. If parents are not present, this method only searches for pairs of heterozygous variants; they may not be on different haplotypes.
+- De Novo/ Dominant
+  - Finds variants where all affected indivs have at least one alternate allele and all unaffected are homozygous reference.
+- Any Affected
+  - Finds variants where at least one affected individual has at least one alternate allele.
+- *Notes on inheritance searching:*
+  - *These methods rely on the affected status of individuals. Individuals with an Unknown phenotype will not be taken into consideration for genotype filters*
+  - *All methods assume complete penetrance*
+  - *seqr assumes unphased genotypes*
+
 ---
 
 # Project 2: Coding & None-coding Search
