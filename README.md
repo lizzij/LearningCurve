@@ -257,3 +257,10 @@ Oct 21 - 25
 
 ## Week 20
 Oct 28 - Nov 1
+
+## Week 21
+Nov 4 - 8
+
+## Week 22
+Nove 11 - 15
+- finish up and fix
