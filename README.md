@@ -262,5 +262,9 @@ Oct 28 - Nov 1
 Nov 4 - 8
 
 ## Week 22
-Nove 11 - 15
+Nov 11 - 15
 - finish up and fix
+
+## Week 23
+Nov 18 - 22
+- merge CH
