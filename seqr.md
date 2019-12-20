@@ -4,7 +4,7 @@
 (in bash `exec bash`)
 - `./manage.py runserver`  
 - `./manage.py test -p '*tests.py' seqr`
-- `http://localhost:8000  
+- http://localhost:8000  
 
 ### client side
 - `cd /seqr/ui`
